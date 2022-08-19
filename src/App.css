@@ -45,3 +45,36 @@ ui {
   object-fit: cover;
   object-position: center;
 }
+.product__detail-container {
+  width: 100%;
+  padding: 15px;
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.detail__image-wrapper {
+  width: 100%;
+}
+.detail__image-wrapper img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.detail__content {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+}
+.detail__content h1 {
+  font-size: 60px;
+}
+.detail__content p {
+  font-size: 1.6rem;
+}
+.detail__content h3 {
+  font-size: 2.4rem;
+}
